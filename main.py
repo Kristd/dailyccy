@@ -10,6 +10,8 @@ f = file('c:\http.html', 'w')
 reg = '<td[^>]*>港币<\/td>[\W\w]+?<\/tr>'
 match = re.search(reg, html).group(0)
 
+#add currency
+
 regArea = '港币'
 regDate = '\d{4}-\d{2}-\d{2}'
 regTime = '\d{2}:\d{2}:\d{2}'
